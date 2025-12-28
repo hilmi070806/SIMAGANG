@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMAGANG - Sistem Informasi Magang</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1>SIMAGANG - Sistem Informasi Magang</h1>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <a href="#beranda" class="nav-link">Beranda</a>
+                    <a href="#posisi" class="nav-link">Posisi Magang</a>
+                    <a href="#tentang" class="nav-link">Tentang</a>
+                    <a href="#aplikasi" class="nav-link">Daftar</a>
+                </nav>
+
+            <div class="header-buttons">
+                <a href="#aplikasi" class="btn btn-primary">Daftar Sekarang</a>
+            </div>
+
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span class="menu-icon" id="menuIcon">☰</span>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <nav class="nav-mobile" id="mobileNav">
+                <a href="#beranda" class="nav-link-mobile">Beranda</a>
+                <a href="#posisi" class="nav-link-mobile">Posisi Magang</a>
+                <a href="#tentang" class="nav-link-mobile">Tentang</a>
+                <a href="#aplikasi" class="nav-link-mobile">Daftar</a>
+                <div class="mobile-buttons">
+                    <button class="btn btn-outline btn-block">Masuk</button>
+                    <button class="btn btn-primary btn-block">Daftar Sekarang</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="beranda" class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <h1 class="hero-title">Mulai Karir Anda Bersama Kami</h1>
+                    <p class="hero-text">
+                        Bergabunglah dengan program magang terbaik dan dapatkan pengalaman kerja yang berharga. 
+                        Kembangkan skill Anda bersama mentor profesional di berbagai bidang industri.
+                    </p>
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary btn-lg">
+                            Lihat Posisi Magang 
+                        </button>
+                       
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <div class="stat-number">500+</div>
+                            <p class="stat-label">Peserta Magang</p>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">50+</div>
+                            <p class="stat-label">Perusahaan Partner</p>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">95%</div>
+                            <p class="stat-label">Tingkat Kepuasan</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://images.unsplash.com/photo-1718220216044-006f43e3a9b1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2Rlcm4lMjBvZmZpY2UlMjB3b3Jrc3BhY2V8ZW58MXx8fHwxNzY2ODU4Mjc2fDA&ixlib=rb-4.1.0&q=80&w=1080" 
+                         alt="Modern office workspace">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internship Positions -->
+    <section id="posisi" class="positions">
+        <div class="container">
+            <div class="section-header">
+                <h2>Posisi Magang Tersedia</h2>
+                <p>Temukan posisi magang yang sesuai dengan minat dan keahlian Anda. 
+                   Semua program dirancang untuk memberikan pengalaman pembelajaran yang maksimal.</p>
+            </div>
+
+            <div class="positions-grid">
+                <!-- Position Card 1 -->
+                <div class="card">
+                    <div class="card-header">
+                        <span class="badge badge-primary">Full-time</span>
+                        <h3>Frontend Developer</h3>
+                        <p class="company">Tech Innovate Indonesia</p>
+                    </div>
+                    <div class="card-body">
+                        <p class="description">Bergabunglah dengan tim pengembangan produk kami untuk membangun aplikasi web modern menggunakan React dan TypeScript.</p>
+                        <div class="info">
+                            <div class="info-item">
+                                <span class="icon">📍</span>
+                                <span>Jakarta</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="icon">⏰</span>
+                                <span>6 Bulan</span>
+                            </div>
+                        </div>
+                        <div class="tags">
+                            <span class="tag">React</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">Tailwind CSS</span>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary btn-block">Lamar Sekarang</button>
+                    </div>
+                </div>
+
+                <!-- Position Card 2 -->
+                <div class="card">
+                    <div class="card-header">
+                        <span class="badge badge-secondary">Part-time</span>
+                        <h3>UI/UX Designer</h3>
+                        <p class="company">Creative Studio</p>
+                    </div>
+                    <div class="card-body">
+                        <p class="description">Pelajari proses desain produk dari riset pengguna hingga implementasi UI yang menarik dan user-friendly.</p>
+                        <div class="info">
+                            <div class="info-item">
+                                <span class="icon">📍</span>
+                                <span>Bandung</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="icon">⏰</span>
+                                <span>3 Bulan</span>
+                            </div>
+                        </div>
+                        <div class="tags">
+                            <span class="tag">Figma</span>
+                            <span class="tag">UI Design</span>
+                            <span class="tag">Prototyping</span>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary btn-block">Lamar Sekarang</button>
+                    </div>
+                </div>
+
+                <!-- Position Card 3 -->
+                <div class="card">
+                    <div class="card-header">
+                        <span class="badge badge-primary">Full-time</span>
+                        <h3>Digital Marketing</h3>
+                        <p class="company">Marketing Plus</p>
+                    </div>
+                    <div class="card-body">
+                        <p class="description">Dapatkan pengalaman dalam strategi pemasaran digital, social media management, dan content creation.</p>
+                        <div class="info">
+                            <div class="info-item">
+                                <span class="icon">📍</span>
+                                <span>Surabaya</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="icon">⏰</span>
+                                <span>4 Bulan</span>
+                            </div>
+                        </div>
+                        <div class="tags">
+                            <span class="tag">SEO</span>
+                            <span class="tag">Social Media</span>
+                            <span class="tag">Analytics</span>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary btn-block">Lamar Sekarang</button>
+                    </div>
+                </div>
+
+                <!-- Position Card 4 -->
+                <div class="card">
+                    <div class="card-header">
+                        <span class="badge badge-primary">Full-time</span>
+                        <h3>Data Analyst</h3>
+                        <p class="company">Data Insights Corp</p>
+                    </div>
+                    <div class="card-body">
+                        <p class="description">Analisis data bisnis untuk menghasilkan insight yang berguna menggunakan tools modern seperti Python dan SQL.</p>
+                        <div class="info">
+                            <div class="info-item">
+                                <span class="icon">📍</span>
+                                <span>Jakarta</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="icon">⏰</span>
+                                <span>6 Bulan</span>
+                            </div>
+                        </div>
+                        <div class="tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">Data Visualization</span>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary btn-block">Lamar Sekarang</button>
+                    </div>
+                </div>
+
+                <!-- Position Card 5 -->
+                <div class="card">
+                    <div class="card-header">
+                        <span class="badge badge-secondary">Part-time</span>
+                        <h3>Content Writer</h3>
+                        <p class="company">Media Digital</p>
+                    </div>
+                    <div class="card-body">
+                        <p class="description">Tulis konten berkualitas untuk berbagai platform digital dan pelajari SEO writing dari mentor berpengalaman.</p>
+                        <div class="info">
+                            <div class="info-item">
+                                <span class="icon">📍</span>
+                                <span>Remote</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="icon">⏰</span>
+                                <span>3 Bulan</span>
+                            </div>
+                        </div>
+                        <div class="tags">
+                            <span class="tag">Writing</span>
+                            <span class="tag">SEO</span>
+                            <span class="tag">Content Strategy</span>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary btn-block">Lamar Sekarang</button>
+                    </div>
+                </div>
+
+                <!-- Position Card 6 -->
+                <div class="card">
+                    <div class="card-header">
+                        <span class="badge badge-primary">Full-time</span>
+                        <h3>Mobile Developer</h3>
+                        <p class="company">App Solutions</p>
+                    </div>
+                    <div class="card-body">
+                        <p class="description">Kembangkan aplikasi mobile cross-platform menggunakan React Native dan Flutter.</p>
+                        <div class="info">
+                            <div class="info-item">
+                                <span class="icon">📍</span>
+                                <span>Yogyakarta</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="icon">⏰</span>
+                                <span>6 Bulan</span>
+                            </div>
+                        </div>
+                        <div class="tags">
+                            <span class="tag">React Native</span>
+                            <span class="tag">Flutter</span>
+                            <span class="tag">Mobile</span>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn btn-primary btn-block">Lamar Sekarang</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section id="tentang" class="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2>Cara Bergabung</h2>
+                <p>Proses pendaftaran yang mudah dan transparan untuk memulai perjalanan karir Anda</p>
+            </div>
+
+            <div class="steps-grid">
+                <div class="step">
+                    <div class="step-icon">📝</div>
+                    <h3>Daftar & Pilih Posisi</h3>
+                    <p>Isi formulir pendaftaran dan pilih posisi magang yang sesuai dengan minat Anda.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">👥</div>
+                    <h3>Proses Seleksi</h3>
+                    <p>Tim kami akan meninjau aplikasi Anda dan menghubungi kandidat yang sesuai.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">🏆</div>
+                    <h3>Mulai Magang</h3>
+                    <p>Dapatkan onboarding dan mulai bekerja dengan mentor profesional.</p>
+                </div>
+                <div class="step">
+                    <div class="step-icon">🚀</div>
+                    <h3>Kembangkan Karir</h3>
+                    <p>Raih pengalaman berharga dan sertifikat untuk mengembangkan karir Anda.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits -->
+    <section class="benefits">
+        <div class="container">
+            <div class="benefits-grid">
+                <div class="benefits-image">
+                    <img src="https://images.unsplash.com/photo-1739298061740-5ed03045b280?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZWFtJTIwbWVldGluZyUyMGNvbGxhYm9yYXRpb258ZW58MXx8fHwxNzY2OTMzNDUwfDA&ixlib=rb-4.1.0&q=80&w=1080" 
+                         alt="Team collaboration">
+                </div>
+                <div class="benefits-content">
+                    <h2>Keuntungan Program Magang</h2>
+                    <p class="benefits-intro">Program magang kami dirancang untuk memberikan pengalaman pembelajaran yang komprehensif 
+                       dan mempersiapkan Anda untuk karir profesional.</p>
+                    
+                    <div class="benefits-list">
+                        <div class="benefit-item">
+                            <div class="benefit-icon">🎓</div>
+                            <div>
+                                <h3>Pembelajaran Praktis</h3>
+                                <p>Dapatkan pengalaman kerja nyata yang tidak bisa Anda pelajari di kelas.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">👥</div>
+                            <div>
+                                <h3>Mentor Berpengalaman</h3>
+                                <p>Belajar langsung dari profesional industri yang berpengalaman.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">🏆</div>
+                            <div>
+                                <h3>Sertifikat Resmi</h3>
+                                <p>Dapatkan sertifikat yang diakui industri setelah menyelesaikan program.</p>
+                            </div>
+                        </div>
+                        <div class="benefit-item">
+                            <div class="benefit-icon">⚡</div>
+                            <div>
+                                <h3>Networking</h3>
+                                <p>Bangun koneksi profesional yang berharga untuk karir masa depan.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Application Form -->
+    <section id="aplikasi" class="application">
+        <div class="container-small">
+            <div class="section-header">
+                <h2>Daftar Program Magang</h2>
+                <p>Isi formulir di bawah ini untuk memulai perjalanan karir Anda bersama kami</p>
+            </div>
+
+            <div class="form-card">
+                <div class="form-header">
+                    <h3>Formulir Aplikasi</h3>
+                    <p>Pastikan semua informasi yang Anda berikan akurat dan lengkap</p>
+                </div>
+                <form id="applicationForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap *</label>
+                            <input type="text" id="name" name="name" placeholder="Masukkan nama lengkap" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" placeholder="nama@email.com" required>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="phone">Nomor Telepon *</label>
+                            <input type="tel" id="phone" name="phone" placeholder="08xxxxxxxxxx" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="position">Posisi yang Diminati *</label>
+                            <select id="position" name="position" required>
+                                <option value="">Pilih posisi</option>
+                                <option value="frontend">Frontend Developer</option>
+                                <option value="uiux">UI/UX Designer</option>
+                                <option value="marketing">Digital Marketing</option>
+                                <option value="data">Data Analyst</option>
+                                <option value="content">Content Writer</option>
+                                <option value="mobile">Mobile Developer</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="university">Universitas/Institusi *</label>
+                            <input type="text" id="university" name="university" placeholder="Nama universitas" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="major">Jurusan *</label>
+                            <input type="text" id="major" name="major" placeholder="Jurusan" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Ceritakan tentang diri Anda *</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Ceritakan tentang pengalaman, motivasi, dan mengapa Anda tertarik dengan posisi ini..." required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary btn-lg btn-block">Kirim</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials -->
+<section class="testimonials">
+  <div class="container">
+    <div class="section-header">
+      <h2>Apa Kata Peserta?</h2>
+      <p>Beberapa pengalaman nyata dari alumni program magang kami</p>
+    </div>
+
+    <div class="positions-grid">
+      <div class="card">
+        <div class="card-body">
+          <p class="description">
+            “Programnya keren! Banyak belajar hal praktis yang benar-benar dipakai di dunia kerja.”
+          </p>
+          <h4>— Rizky, Frontend Developer</h4>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <p class="description">
+            “Mentornya sabar dan supportive. Dapet relasi plus rekomendasi kerja juga.”
+          </p>
+          <h4>— Siti, UI/UX Designer</h4>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <p class="description">
+            “Belajar analisis data dari project nyata. Nilai tambah banget buat CV!”
+          </p>
+          <h4>— Andi, Data Analyst</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section class="partners">
+  <div class="container">
+    <div class="section-header">
+      <h2>Perusahaan Partner</h2>
+      <p>Bekerja sama dengan perusahaan ternama dari berbagai industri</p>
+    </div>
+
+    <div class="positions-grid">
+
+      <div class="card">
+        <div class="card-body" style="text-align:center">
+          <img src="googlee.jpg" alt="Google Indonesia" class="partner-logo">
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body" style="text-align:center">
+          <img src="tokopedia.jpg" alt="Tokopedia" class="partner-logo">
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body" style="text-align:center">
+          <img src="telkom.jpg" alt="Telkom Indonesia" class="partner-logo">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>SIMAGANG - Sistem Informasi Magang</h3>
+                    <p>Platform magang terpercaya yang menghubungkan talenta muda dengan perusahaan terbaik di Indonesia.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Tautan Cepat</h4>
+                    <ul>
+                        <li><a href="#beranda">Beranda</a></li>
+                        <li><a href="#posisi">Posisi Magang</a></li>
+                        <li><a href="#tentang">Tentang Kami</a></li>
+                        <li><a href="#aplikasi">Daftar</a></li>
+                    </ul>
+                </div>               
+                <div class="footer-col">
+                    <h4>Kontak</h4>
+                    <ul class="contact-list">
+                        <li>SIMAGANG.com</li>
+                        <li>+62 21 1234 5678</li>
+                        <li>Jakarta, Indonesia</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>© 2025 SIMAGANG. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"></a>
+                    <a href="#" aria-label="Twitter"></a>
+                    <a href="#" aria-label="Instagram"></a>
+                    <a href="#" aria-label="LinkedIn"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Toast Notification -->
+    <div id="toast" class="toast"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
